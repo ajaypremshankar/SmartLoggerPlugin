@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/SmartLoggerFeature_1.0.0.qualifier.jar" id="SmartLoggerFeature" version="1.0.0.qualifier">
+      <category name="category.SmartLogger"/>
+   </feature>
+   <category-def name="category.SmartLogger" label="Smart Logger"/>
+</site>

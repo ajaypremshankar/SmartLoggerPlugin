@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="SmartLoggerFeature"
+      label="Smart Logging Feature"
+      version="1.0.0.qualifier"
+      provider-name="Ajay Prem Shankar">
+
+   <description url="http://www.example.com/description">
+      Inserts logger in every block in Java class
+   </description>
+
+   <plugin
+         id="SmartLogger"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

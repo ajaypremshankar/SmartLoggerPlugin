@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension point="org.eclipse.ui.menus">
+                <menuContribution locationURI="popup:org.eclipse.jdt.ui.PackageExplorer">
+                        <command commandId="smartlogger.pluginManager"
+                                label="Insert Logs" style="push">
+                        </command>
+                </menuContribution>
+        </extension>
+        <extension point="org.eclipse.ui.commands">
+                <command defaultHandler="com.smartlogger.PluginManager"
+                        id="smartlogger.pluginManager" name="Insert Logs">
+                </command>
+        </extension>
+
+</plugin>
